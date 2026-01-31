@@ -9,7 +9,7 @@ export const dynamic = 'force-dynamic'
 export default async function RoomDetailsPage({
     params,
 }: {
-    params: { id: string }
+    params: any
 }) {
     const { id } = await params
 
